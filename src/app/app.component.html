@@ -1,0 +1,7 @@
+<!-- <h1>Mean stack project</h1> -->
+ 
+<app-header></app-header>
+<app-banner *ngif="router.url == '/'" ></app-banner>
+<router-outlet></router-outlet>
+<app-latest-articles *ngif="router.url == '/'" ></app-latest-articles>
+<app-footer></app-footer>
